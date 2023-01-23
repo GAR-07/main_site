@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", "Arial", sans-serif;
+}
+body {
+    background-color: #202124;
+}
+form {
+    display: flex;
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-radius: 5px;
+    border-bottom: 2px solid #24B6FF;
+    outline: none;
+}
+form button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.text {
+    color: whitesmoke;
+}
+.alert_No {
+    color: whitesmoke;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+}
+.alert_Yes {
+    color: whitesmoke;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: right;
+}
+.msg {
+    color: whitesmoke;
+    border: 2px solid #24B6FF;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #24B6FF;
+    overflow: hidden;
+}
+.navbar button {
+    float: left;
+    color: whitesmoke;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+    font-size: 17px;
+    cursor: pointer;
+}
+.navbar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar a:hover, .navbar a.active{
+    background-color: #202124;
+    color: whitesmoke;
+}
